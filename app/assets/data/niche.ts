@@ -1,0 +1,48 @@
+export const niches = [
+  { value: "ai", label: "AI & Machine Learning" },
+  { value: "blockchain", label: "Blockchain & Crypto" },
+  { value: "gadgets", label: "Gadgets & Reviews" },
+  { value: "software_dev", label: "Software Development" },
+  { value: "cybersecurity", label: "Cybersecurity" },
+  { value: "tech_tutorials", label: "Tech Tutorials" },
+
+  { value: "marketing", label: "Marketing" },
+  { value: "ecommerce", label: "E-commerce" },
+  { value: "startups", label: "Startups" },
+  { value: "personal_finance", label: "Personal Finance" },
+  { value: "investing", label: "Investing" },
+  { value: "real_estate", label: "Real Estate" },
+
+  { value: "travel", label: "Travel" },
+  { value: "fitness", label: "Fitness" },
+  { value: "healthy_eating", label: "Healthy Eating" },
+  { value: "minimalism", label: "Minimalism" },
+  { value: "self_improvement", label: "Self Improvement" },
+  { value: "productivity", label: "Productivity" },
+
+  { value: "skincare", label: "Skincare" },
+  { value: "makeup", label: "Makeup" },
+  { value: "haircare", label: "Haircare" },
+  { value: "fashion", label: "Fashion" },
+  { value: "nail_art", label: "Nail Art" },
+
+  { value: "gaming", label: "Gaming" },
+  { value: "movies", label: "Movies" },
+  { value: "music", label: "Music" },
+  { value: "anime", label: "Anime" },
+  { value: "memes", label: "Memes" },
+  { value: "comics", label: "Comic & Manga" },
+
+  { value: "online_courses", label: "Online Courses" },
+  { value: "language_learning", label: "Language Learning" },
+  { value: "science", label: "Science & Facts" },
+  { value: "history", label: "History" },
+  { value: "career_tips", label: "Career Tips" },
+
+  { value: "photography", label: "Photography" },
+  { value: "cooking", label: "Cooking" },
+  { value: "diy", label: "DIY & Crafts" },
+  { value: "gardening", label: "Gardening" },
+  { value: "pets", label: "Pets" },
+  { value: "automotive", label: "Automotive" },
+];
