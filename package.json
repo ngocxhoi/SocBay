@@ -13,9 +13,19 @@
     "@clerk/nuxt": "^1.13.3",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.2.1",
+    "@prisma/adapter-pg": "^7.1.0",
+    "@prisma/client": "^7.1.0",
+    "dotenv": "^17.2.3",
+    "inngest": "^3.47.0",
     "nuxt": "^4.2.1",
+    "pg": "^8.16.3",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vue": "^3.5.25",
     "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.6",
+    "prisma": "^7.1.0"
   }
 }
