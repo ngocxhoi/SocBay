@@ -2,7 +2,7 @@ import { prisma } from "./prisma";
 import { Inngest } from "inngest";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "my-app" });
+export const inngest = new Inngest({ id: "SocBay" });
 
 const syncUserFromClerk = inngest.createFunction(
   { id: "sync-user-from-clerk" },
@@ -41,7 +41,7 @@ const syncUserFromClerk = inngest.createFunction(
   }
 );
 const syncUpdateUserFromClerk = inngest.createFunction(
-  { id: "sync-user-from-clerk" },
+  { id: "sync-update-user-from-clerk" },
   { event: "clerk/user.created" },
   async ({ event }: any) => {
     const { data } = event;
